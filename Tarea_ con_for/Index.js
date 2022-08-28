@@ -1,11 +1,3 @@
-let nombre = prompt("Ingresa un nombre");
-
-While(usuario != ${nombre}){
-    alert ("usuario incorrecto");
-    usuario = prompt("Ingrese usuario")
-}
-
-alert("bienvenido");
 
 let numero = parseInt(prompt("ingrese numero"));
 

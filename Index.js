@@ -11,6 +11,13 @@ if (respuesta === "si") {
     alert("date una vuelta puede que encuentres algo de tu agrado");
 }
 
+let i = 0;
+do {
+  i = i + 1;
+  console.log(i);
+} while (i < 5);
+
+
 
 
 

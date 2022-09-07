@@ -1,25 +1,8 @@
-let nombre = prompt("ingresa el nombre");
-let edad = prompt("ingrsa tu edad");
 
-let mensaje = "Bienvenid@ " + nombre + " tienes " + edad;
-
-let respuesta = prompt("¿estas buscando lentes?")
-
-if (respuesta === "si") {
-    alert("aqui encontraras lo que buscas");
-}else{
-    alert("date una vuelta puede que encuentres algo de tu agrado");
-}
-
-let i = 0;
-do {
-  i = i + 1;
-  console.log(i);
-} while (i < 5);
-
-
-
-
-
-
-
+for(let turno = 1; turno <= 10; turno++){
+    let nombre = prompt("Ingrese su nombre para asignar el turno");
+    let mensaje = `Turno #${turno} Nombre: ${nombre}`;
+    alert(mensaje);
+  }
+  
+  alert("No tenemos mas turnos");
